@@ -1,0 +1,5 @@
+﻿*{margin:0px;padding:0px}
+
+#footer {background: #E7E2DA;}
+#footer .block {width:100px;height:100px;border: 1px solid red; float:left}
+#footer .link{ text-align:center; clear:both;}
