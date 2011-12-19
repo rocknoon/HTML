@@ -1,0 +1,6 @@
+/logs
+/cache
+/.cache
+/.settings
+.project
+.buildpath
