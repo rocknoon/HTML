@@ -1,0 +1,41 @@
+﻿
+*{margin:0px;padding:0px}
+body{ background: #F0F1F2; font-size: 12px; font-family: "Helvetica Neue",Helvetica,Verdana,Arial,sans-serif; color: #4D4D4D; padding-top: 50px;}
+ul{ list-style : none; }
+a { text-decoration: none; color: #635A4E; }
+a:hover {  }
+a:link { text-decoration: none; }
+.clear { clear:both; }
+img{ border:0px; }
+
+#header {position:fixed; left:0px;top:0px; background: url( images/header_bg.png ); height:42px; width:100%;}
+#header .content { margin:0 auto; width: 960px;}
+#header .content .logo{ display:inline-block; *zoom:1; *display:inline; margin-right:20px; background: url( images/logo.png ) left center no-repeat; width: 101px; height:40px; vertical-align: middle;}
+#header .content .search{ display:inline-block; *zoom:1; *display:inline; background: #A0D3EC; border: 1px solid #3990BB; vertical-align :middle; padding:5px 2px;}
+#header .content .search .text{ display:inline-block; *zoom:1; *display:inline; border:0px; width:150px; background: #A0D3EC; height:18px; line-height:18px;}
+#header .content .search .submit{ background: url( images/search.png ); border:0px; width:18px; height:18px; display:inline-block; *zoom:1; *display:inline; text-indent:-50px;}
+#header .content .items { display:inline-block; *zoom:1; *display:inline; float:right; margin-right:20px; }
+#header .content .items li { display:inline-block; *zoom:1; *display:inline;}
+#header .content .items li a{ display:inline-block; *zoom:1; *display:inline; height:40px; line-height:40px; color: rgba(255, 255, 255, 0.9); font-weight:bold;  padding: 0 10px; text-shadow: #2075BE 0 1px 0; }
+
+
+#main { margin:0 auto; width: 960px; border: 1px solid #D9D9D9;}
+#primary { width: 600px; float:left; background: white  }
+#primary .tips .comment { border-bottom: 1px solid #F0F1F2; margin:0 auto; width:540px; padding:10px 0px; }
+#primary .tips .comment .head{ display:block; float:left; width:30px; height:30px; margin:0px 20px 0px 20px;}
+#primary .tips .comment .content{ float:left; width: 450px; line-height:18px; }
+#primary .tips .comment .content .name{ display:inline-block; color: #2398C9; margin-right:5px; }
+#primary .tips .comment .content .time{ display:inline-block; color: #999;}
+#primary .tips .saying  { background: #F0F4F5; border-bottom: 1px solid #DAE4E6; border-top: 1px solid #DAE4E6; padding:10px 0px;}
+#primary .tips .saying .head{ display:block; float:left; width:60px; height:60px; margin:0px 20px 0px 20px;}
+#primary .tips .saying .content{ float:left; width: 450px; line-height:18px; }
+#primary .tips .saying .content .name{ display:inline-block; font-weight: bold; margin-right:3px; }
+#primary .tips .saying .content .leave_tip{ display:inline-block; }
+#primary .tips .saying .content textarea{ margin:10px 0px;display:block; height: 66px; padding:10px; width: 100%; border: 1px solid #B3B3B3; -webkit-border-radius: 5px; }
+
+#primary .tips .saying .content .share{   text-shadow: rgba(0, 0, 0, 0.1) 0 -1px 0; text-transform: uppercase; -webkit-border-radius: 5px;  border-radius: 5px;  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 2px 0px;  background: -webkit-gradient(linear, left top, left bottom, from(#A7E300), to(#99D100)); box-shadow: rgba(0, 0, 0, 0.1) 0 0 2px 0px;border: 1px solid #87B800; cursor: pointer; background: #A7E300; padding:5px 10px; color: white; font-weight: bold; display:inline-block; zoom:1; *display:inline; }
+
+
+#secondary {width:320px; float:left; }
+
+
